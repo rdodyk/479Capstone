@@ -95,7 +95,7 @@ This section will cover the design loads including dead, live, snow/rain, wind a
 \subsubsection{Penthouse Roof}
     \begin{table}[h!]
         \centering
-    \begin{tabular}{llr}
+    \begin{tabular}{lcr}
         \toprule
         \textbf{Component} & \textbf{Type} & \textbf{Load (kPa)}\\
         \midrule
@@ -107,12 +107,12 @@ This section will cover the design loads including dead, live, snow/rain, wind a
         \bottomrule
     \end{tabular}
     \caption{Superimposed Penthouse Roof Loads}
-    \label{tab:table1}
+    \label{tab:superPent}
     \end{table}
 
     \begin{table}[h!]
         \centering
-    \begin{tabular}{llr}
+    \begin{tabular}{lcr}
         \toprule
         \textbf{Component} & \textbf{Type} & \textbf{Load (kPa)}\\
         \midrule
@@ -122,7 +122,7 @@ This section will cover the design loads including dead, live, snow/rain, wind a
         \bottomrule
     \end{tabular}
     \caption{Penthouse Self Weights}
-    \label{tab:table2}
+    \label{tab:selfPent}
     \end{table}
 
 \subsubsection{Mechanical Room Main Roof}
@@ -130,10 +130,48 @@ This section will cover the design loads including dead, live, snow/rain, wind a
     \centering
 \includegraphics[width=10cm]{Assets/Roof_Structure.png}
 \caption{Typical roof detail}
-\label{fig:Roof_Structure}
+\label{fig:roofStruct}
 \end{figure}
 
-%Mechanical Room Main roof loads tables
+\begin{table}[h!]
+    \centering
+    \begin{tabular}{lcr}
+        \toprule
+        \textbf{Component} & \textbf{Type} & \textbf{Load (kPa)}\\
+        \midrule
+        Roof Membrane & 4 ply w/ gravel & 0.32\\
+        Protection Board & 14mm thick plywood & 0.08\\
+        Thermal Insulation & 75mm rigid glass fibre & 0.053\\
+        Drywall Channel &  & 0.12\\
+        1/2" Gypsum Board &  & 0.10\\
+        Mechanical Piping &  & 0.2\\
+        Concrete Equipment Pads & 100mm & 2.35\\
+        \textbf{Total} & & \textbf{3.22}\\
+        \bottomrule
+    \end{tabular}
+    \caption{Superimposed main roof loads}
+    \label{tab:superMain}
+\end{table}
+
+\begin{table}[h!]
+    \centering
+    \begin{tabular}{lcr}
+        \toprule
+        \textbf{Component} & \textbf{Type} & \textbf{Load (kPa)}\\
+        \midrule
+        Composite Deck &  & TBD\\
+        Frame Assumption &  & 0.5\\
+        \textbf{Total} & & \textbf{TBD}\\
+        \bottomrule
+    \end{tabular}
+    \caption{Superimposed main roof loads}
+    \label{tab:selfMain}
+\end{table}
+
+We decided to use 100 mm concrete pads, known as “concrete housekeeping pads” (see Figure \ref{fig:Housekeeping_Pads}), for mechanical equipment on the roof.
+This is used for cleaning ability in order to spray/wash the floor in case of a spill of a machine without affecting the surrounding machines around.
+Also, this also adds extra mass for vibration control.
+
 \begin{figure}
     \centering
 \includegraphics[width=10cm]{Assets/Housekeeping_Pads.png}
@@ -141,9 +179,70 @@ This section will cover the design loads including dead, live, snow/rain, wind a
 \label{fig:Housekeeping_Pads}
 \end{figure}
 
-We decided to use 100 mm concrete pads, known as “concrete housekeeping pads” (see Figure \ref{fig:Housekeeping_Pads}), for mechanical equipment on the roof.
-This is used for cleaning ability in order to spray/wash the floor in case of a spill of a machine without affecting the surrounding machines around.
-Also, this also adds extra mass for vibration control.
+\begin{table}[h!]
+    \centering
+    \begin{tabular}{lcr}
+        \toprule
+        \textbf{Component} & \textbf{Type} & \textbf{Load (kPa)}\\
+        \midrule
+        Floor Finishing &  & 0.20\\
+        Drywall Channel &  & 0.12\\
+        1/2" Gypsum Board &  & 0.10\\
+        Partitions &  & 1.00\\
+        Mechanical Piping &  & 0.2\\
+        \textbf{Total} & & \textbf{1.62}\\
+        \bottomrule
+    \end{tabular}
+    \caption{Superimposed loads on stories 1, 2, and 3}
+    \label{tab:super123}
+\end{table}
+
+\begin{table}[h!]
+    \centering
+    \begin{tabular}{lcr}
+        \toprule
+        \textbf{Component} & \textbf{Type} & \textbf{Load (kPa)}\\
+        \midrule
+        Composite Deck & P3615 38mm deck w/ 62mm concrete cover & 1.85\\
+        Frame Assumption &  & 0.50\\
+        \textbf{Total} & & \textbf{2.35}\\
+        \bottomrule
+    \end{tabular}
+    \caption{Self weights of stories 1, 2, and 3}
+    \label{tab:self123}
+\end{table}
+
+\subsubsection{Parkade Level 1 and 2}
+
+\begin{table}[h!]
+    \centering
+    \begin{tabular}{lcr}
+        \toprule
+        \textbf{Component} & \textbf{Type} & \textbf{Load (kPa)}\\
+        \midrule
+        P1 &  & 0.20\\
+        P2 &  & 0.20\\
+        \textbf{Total} & & \textbf{0.40}\\
+        \bottomrule
+    \end{tabular}
+    \caption{Superimposed parkade loads}
+    \label{tab:superPark}
+\end{table}
+
+\begin{table}[h!]
+    \centering
+    \begin{tabular}{lcr}
+        \toprule
+        \textbf{Component} & \textbf{Type} & \textbf{Load (kPa)}\\
+        \midrule
+        RC Slab & 12" & 7162.8\\
+        RC Columns & At intersections of beams & 0.61\\
+        \textbf{Total} & & \textbf{}\\
+        \bottomrule
+    \end{tabular}
+    \caption{Parkade Self Weights}
+    \label{tab:selfPark}
+\end{table}
 
 \subsection{Live Load}
 The live loads were taken from 2015 NBCC Part 4.1.5.
