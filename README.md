@@ -29,3 +29,10 @@ It's actually really easy and intuitive in the end.
 
 Hopefully these two things together will let us write a report with an
 appearance that matches it's content.
+
+## Other Information
+[Some helpful content
+info](https://www.aresearchguide.com/writing-a-technical-report.html))
+
+[Some other helpful
+info](https://writing.colostate.edu/guides/guide.cfm?guideid=88)
