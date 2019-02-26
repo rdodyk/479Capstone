@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6730 64-bit) (preloaded format=pdflatex 2019.2.23)  24 FEB 2019 10:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6730 64-bit) (preloaded format=pdflatex 2019.2.23)  25 FEB 2019 09:20
 entering extended mode
 **./report.tex
 (report.tex
@@ -305,7 +305,7 @@ Package pdftex.def Info: Assets/Housekeeping_Pads.png  used on input line 177.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Overfull \hbox (33.41757pt too wide) in paragraph at lines 202--211
+Overfull \hbox (33.41756pt too wide) in paragraph at lines 204--213
  [][] 
  []
 
@@ -359,32 +359,29 @@ Package pdftex.def Info: Assets/windload.png  used on input line 359.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[10] [11 <./Assets/windload.png>] (report.aux)
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
- ) 
+[10] [11 <./Assets/windload.png>] (report.aux) ) 
 Here is how much of TeX's memory you used:
- 3474 strings out of 492973
- 53925 string characters out of 3126692
- 124461 words of memory out of 3000000
- 7309 multiletter control sequences out of 15000+200000
+ 3471 strings out of 492973
+ 53881 string characters out of 3126692
+ 124510 words of memory out of 3000000
+ 7306 multiletter control sequences out of 15000+200000
  11217 words of font info for 40 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  42i,7n,40p,676b,483s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Users/ryand/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts
-/cm/cmbx12.pfb><C:/Users/ryand/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pu
-blic/amsfonts/cm/cmcsc10.pfb><C:/Users/ryand/AppData/Local/Programs/MiKTeX 2.9/
-fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/ryand/AppData/Local/Program
-s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/ryand/AppData/
-Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/ry
-and/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb>
-<C:/Users/ryand/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/c
-m/cmr12.pfb><C:/Users/ryand/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publi
-c/amsfonts/cm/cmr17.pfb><C:/Users/ryand/AppData/Local/Programs/MiKTeX 2.9/fonts
-/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/ryand/AppData/Local/Programs/MiKTe
-X 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on report.pdf (12 pages, 1939096 bytes).
+<C:/Users/ryand/AppData/Local/P
+rograms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/ryand/Ap
+pData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/
+Users/ryand/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cm
+mi10.pfb><C:/Users/ryand/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/a
+msfonts/cm/cmmi12.pfb><C:/Users/ryand/AppData/Local/Programs/MiKTeX 2.9/fonts/t
+ype1/public/amsfonts/cm/cmmi8.pfb><C:/Users/ryand/AppData/Local/Programs/MiKTeX
+ 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/ryand/AppData/Local/Pro
+grams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/ryand/AppDa
+ta/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users
+/ryand/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pf
+b><C:/Users/ryand/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts
+/cm/cmsy10.pfb>
+Output written on report.pdf (12 pages, 1939072 bytes).
 PDF statistics:
  98 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
