@@ -6,6 +6,8 @@
 \usepackage{paralist}
 \usepackage{booktabs}
 
+\setlength\parindent{0pt}
+
 \begin{document}
 \begin{titlepage}
     \center
@@ -24,7 +26,7 @@
     April 17, 2019
 \end{titlepage}
 \section{Introduction}
-The purpose of this project is to design a three-storey commercial building located in Vancouver, BC.
+The purpose of this project is to design a three-story commercial building located in Vancouver, BC.
 The building has the following features:
 \begin{itemize}
     \item 1st floor- Mercantile Occupancy
@@ -119,7 +121,7 @@ This section will cover the design loads including dead, live, snow/rain, wind a
         \textbf{Component} & \textbf{Type} & \textbf{Load (kPa)}\\
         \midrule
         Steel Deck & & 0.15\\
-        Frame Assumption & & 0.5\\
+        Frame Assumption & & 0.50\\
         \textbf{Total} & & \textbf{0.65}\\
         \bottomrule
     \end{tabular}
@@ -146,7 +148,7 @@ This section will cover the design loads including dead, live, snow/rain, wind a
         Thermal Insulation & 75mm rigid glass fibre & 0.053\\
         Drywall Channel &  & 0.12\\
         1/2" Gypsum Board &  & 0.10\\
-        Mechanical Piping &  & 0.2\\
+        Mechanical Piping &  & 0.20\\
         Concrete Equipment Pads & 100mm & 2.35\\
         \textbf{Total} & & \textbf{3.22}\\
         \bottomrule
@@ -162,7 +164,7 @@ This section will cover the design loads including dead, live, snow/rain, wind a
         \textbf{Component} & \textbf{Type} & \textbf{Load (kPa)}\\
         \midrule
         Composite Deck &  & TBD\\
-        Frame Assumption &  & 0.5\\
+        Frame Assumption &  & 0.50\\
         \textbf{Total} & & \textbf{TBD}\\
         \bottomrule
     \end{tabular}
@@ -257,7 +259,7 @@ The live load on the main roof is calculated as 1.00 kPa.
 This was taken from NBCC 4.1.5.3.
 \subsubsection{Storeys 1, 2, and 3}
 The live load on storey 1 is calculated as 4.80 kPa as it is a retail and wholesale area (NBCC 4.1.5.3).
-We are designing a slab on the west portion between gridlines C and D of the building of storey 1 (see Figure X) that is capable of withstanding a live load of 12 kPa (NBCC 4.1.5.3). This is designed in anticipation of vehicles driving up on the sidewalk where the parkade lies below grade.
+We are designing a slab on the west portion between gridlines C and D of the building of storey 1 (see Figure X) that is capable of withstanding a live load of 12 kPa (NBCC 4.1.5.3). This is designed in anticipation of vehicles driving up on the sidewalk where the parkade lies below grade.\\
 
 The live load on storeys 2 and 3 is calculated as 2.40 kPa as it is designed for office occupancy. This was taken from NBCC 4.1.5.3.
 \subsubsection{Parkade Level 1 and 2}
@@ -271,14 +273,14 @@ Specified Snow Load is calculated using the following formula from NBCC 4.1.6.2.
     S = I_{s}[S_{s}(C_{b}C_{w}C_{s}C_{a})+S_{r}]
 \end{equation*}
 
-\noindent$S_{s} = 1.8 kPa$ (Vancouver City Hall 1/50 NBCC Appendix C)\\
+$S_{s} = 1.8 kPa$ (Vancouver City Hall 1/50 NBCC Appendix C)\\
 $S_{r} = 0.2 kPa$ (Vancouver City Hall 1/50 NBCC Appendix C)\\
 $I_{s} = 1.0 kPa$ (Importance category specified as normal, Table 4.1.6.2)\\
 $C_{b} = 0.8$ (NBCC Part 4 Clause 1, Sentence (2)) since $l_{c}=2w-\frac{w^2}{L}=34.6m < 70m$ where $w=30.6$ and $L = 35.2$\\
 $C_{w} = 1.0$ (NBCC Part 4 Clause 1, Sentence (3) and (4))\\
 $C_{s} = 1.0$ (NBCC Part 4 Clause 1, Sentence (5),(6) and (7))\\
 
-*We assumed the parapet height for the penthouse is 505 mm (same as the roof of Level 3). The detailed drawings did not show the penthouse parapet height.
+*We assumed the parapet height for the penthouse is 505 mm (same as the roof of Level 3). The detailed drawings did not show the penthouse parapet height.\\
 
 There are three cases for the accumulation factor ($C_{a}$) :
 \begin{enumerate}
@@ -320,7 +322,7 @@ For the penthouse roof, the rain load is calculated using NBCC Commentary H.
 The 24-hr rain period for Vancouver City Hall is 112 mm.
 The rain load is calculated as 1.19 kPa.
 Therefore, the snow load on the penthouse roof of 1.64 kPa still governs design.
-The calculations and assumptions can be found in Appendix A: Loads.
+The calculations and assumptions can be found in Appendix A: Loads.\\
 
 For the main roof, the rain load is calculated using NBCC Commentary H.
 The 24-hr rain period for Vancouver City Hall is 112 mm.
@@ -329,7 +331,7 @@ Therefore, the snow load on the main roof of 1.64 kPa still governs design.
 The calculations and assumptions can be found in Appendix A: Loads.
 \subsection{Wind Load}
 \subsubsection{External Pressure}
-The wind load is calculated using the static procedure (NBCC 4.1.7.2). The width of the building varies in N-S direction (30.6 m and 33.1 m); however, the larger depth was used for calculations. The building does not require calculations by dynamic or wind tunnel methods as it is a low rise building. The roof enclosure for N-S and E-W, the width will be assumed to be the max width of the enclosure (15.6 m for E-W and 24.0 m for N-S). The roof slope is approximately 0 degrees.
+The wind load is calculated using the static procedure (NBCC 4.1.7.2). The width of the building varies in N-S direction (30.6 m and 33.1 m); however, the larger depth was used for calculations. The building does not require calculations by dynamic or wind tunnel methods as it is a low rise building. The roof enclosure for N-S and E-W, the width will be assumed to be the max width of the enclosure (15.6 m for E-W and 24.0 m for N-S). The roof slope is approximately 0 degrees.\\
 
 The Specified Wind Load equation found in NBCC 4.1.7.3:
 
@@ -337,23 +339,23 @@ The Specified Wind Load equation found in NBCC 4.1.7.3:
     P=I_{w}qC_{e}C_{g}C_{p}C_{t}
 \end{equation*}
 
-$I_{w}= 1.0 kPa$ (assume importance category is normal, Table 4.1.7.1)
-$q= 0.45 kPa$ (for Vancouver City Hall)
-$C_{t}= 1.0 kPa$
-$C_{e}= 0.77$ (stays the same for each level as reference height is less than 20 m)
-$C_{g}C_{p}=$ varies for each direction (NBCC Table 4.1.7.6-A)
+$I_{w}= 1.0 kPa$ (assume importance category is normal, Table 4.1.7.1)\\
+$q= 0.45 kPa$ (for Vancouver City Hall)\\
+$C_{t}= 1.0 kPa$\\
+$C_{e}= 0.77$ (same for each level as reference height is less than 20 m)\\
+$C_{g}C_{p}=$ varies for each direction (NBCC Table 4.1.7.6-A)\\
 
-The following external wind loads are calculated as:
-Windward: 0.26 kPa
-Leeward: -0.19 kPa
-Roof Top (close edge): -0.45 kPa
-Roof Top (far edge): -0.24 kPa
+The following external wind loads are calculated as:\\
+Windward: 0.26 kPa\\
+Leeward: -0.19 kPa\\
+Roof Top (close edge): -0.45 kPa\\
+Roof Top (far edge): -0.24 kPa\\
 
 The values were calculated assuming that the wind load is applied to the right; if the wind load was applied to the left, the only thing that would change would be that the windward load and the leeward load values would switch with each other, however, the total magnitude would remain the same. As our building has different elevations in different directions; wind loads are designed for the longest dimension (35.2 m) rather than designing wind loads in each direction. Therefore, it was assumed that the building is square with length of 35.2 m on all sides, although this is not the case. Further in detail calculations can be found in Appendix A: Loads.
 \subsubsection{Internal Pressure}
-The internal wind pressure on the building was calculated as 0 kPa. The internal gust effect factor ($C_{gi}$) is 2.0 kPa (NBCC 4.7.3.10) and the internal pressure coefficient ($C_{pi}$) is 0 kPa (NBCC 4.1.7.7). We assumed through this that the structure is enclosed and any openings will not affect wind loads.
+The internal wind pressure on the building was calculated as 0 kPa. The internal gust effect factor ($C_{gi}$) is 2.0 kPa (NBCC 4.7.3.10) and the internal pressure coefficient ($C_{pi}$) is 0 kPa (NBCC 4.1.7.7). We assumed through this that the structure is enclosed and any openings will not affect wind loads.\\
 
-The overall wind pressure can be found in Figure \ref{fig:windload} below.
+The overall wind pressure can be found in Figure \ref{fig:windload}.
 
 \begin{figure}[h!]
     \includegraphics[width=\linewidth]{Assets/windload.png}
@@ -364,5 +366,19 @@ The overall wind pressure can be found in Figure \ref{fig:windload} below.
 \subsection{Earthquake Load}
 \subsection{Earth Pressure}
 \section{Preliminary Design}
+\subsection{Penthouse}
+The penthouse was designed to utilize a moment resisting frame for lateral support. 
+This allowed for a significant reduction in weight, as there is no longer a concrete shear core extending into the penthouse level. 
+A moment resisting frame also separates the analysis of the oval penthouse from the analysis of the rest of the building. 
+The structure as a whole could only be analyzed with numerical methods otherwise.
+\subsubsection{Moment Resisting Frame}
+In the governing case, a load of (SOME kPa) must be resisted by the lateral system in the penthouse. 
+In order to achieve this, the penthouse LLRS should consist of a square frame as shown in (Whatever figure). 
+\subsubsection{Lean-On Frame}
+The rest of the penthouse should be constructed as per (Next Figure), using only pin connections in order to reduce the cost of fabricating moment connections. 
+All of the members have been kept consistent in the gravity system in order to simplify and accelerate the ordering and fabrication process for the penthouse. 
+%While this comes at the expense of some structural efficiency, the savings in construction planning will make up for the loss. 
+
+
 
 \end{document}
